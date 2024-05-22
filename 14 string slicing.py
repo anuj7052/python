@@ -20,3 +20,8 @@ a = "my name is anuj"
 #b = a[start:end:step]
 b = (a[::-1])
 print(b)
+
+a = "my name is anuj"
+print(a[: :-1])
+for i in a:
+    print(i)
